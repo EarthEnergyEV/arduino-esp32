@@ -46,6 +46,7 @@ typedef struct apb_change_cb_s {
         apb_change_cb_t cb;
 } apb_change_t;
 
+#define MHZ 1000000
 
 static apb_change_t * apb_change_callbacks = NULL;
 static xSemaphoreHandle apb_change_lock = NULL;
